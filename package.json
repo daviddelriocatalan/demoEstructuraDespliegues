@@ -1,0 +1,20 @@
+{
+  "name": "demoestructuradespliegues",
+  "version": "1.0.0",
+  "description": "demo de carpetas para despliegue",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": ".\\scripts\\build.sh",
+    "deploy": "npm run build && .\\scripts\\deploy.sh",
+    "serve": "onchange ./src/index.html -- ./deploy/deploy.sh"
+  },
+  "author": "david del rio",
+  "license": "ISC",
+  "dependencies": {
+    "onchange": "^6.1.0"
+  }
+}

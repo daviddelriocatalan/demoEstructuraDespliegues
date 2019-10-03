@@ -1,0 +1,21 @@
+$rojo : #FF0000;
+$rojoClaro : lighten($rojo, 20%);
+$rojoOscuro : darken($rojo, 20%);
+
+div{
+    height: 150px;
+    width: auto;
+    text-align: center;
+}
+
+.normal{
+background-color: $rojo;
+}
+
+.claro{
+background-color: $rojoClaro;
+}
+
+.oscuro{
+background-color: $rojoOscuro;
+}

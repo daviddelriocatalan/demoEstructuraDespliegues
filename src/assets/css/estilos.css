@@ -1,0 +1,13 @@
+div {
+  height: 150px;
+  width: auto;
+  text-align: center; }
+
+.normal {
+  background-color: #FF0000; }
+
+.claro {
+  background-color: #ff6666; }
+
+.oscuro {
+  background-color: #990000; }
